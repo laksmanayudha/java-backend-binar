@@ -17,6 +17,8 @@ public class TugasHewanAccount {
         }
         System.out.println();
         System.out.println(new SavingsAccount("Yudha", "1234", 34.0));
+        System.out.println();
+        System.out.println(new Account("Yudha", "1234"));
 
     }
 }

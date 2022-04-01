@@ -24,4 +24,9 @@ public class Account {
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }
+
+    @Override
+    public String toString() {
+        return  this.accountNumber + "\n" + this.name;
+    }
 }

@@ -17,6 +17,6 @@ public class SavingsAccount extends Account{
 
     @Override
     public String toString() {
-        return this.accountNumber + "\n" + this.name + "\n" + this.balance;
+        return super.toString() + "\n" + this.balance;
     }
 }

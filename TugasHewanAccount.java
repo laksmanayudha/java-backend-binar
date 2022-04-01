@@ -11,8 +11,9 @@ public class TugasHewanAccount {
         arrayHewan[5] = new Chicken(2, "Kacang");
 
         for (int i = 0; i < arrayHewan.length; i++){
-            System.out.println(arrayHewan[i].getNumberOfLegs());
-            System.out.println(arrayHewan[i].getFavoriteFood());
+            System.out.println("Jumlah kaki: " +  arrayHewan[i].getNumberOfLegs());
+            System.out.println("Favorite food: " +  arrayHewan[i].getFavoriteFood());
+            System.out.println();
         }
         System.out.println();
         System.out.println(new SavingsAccount("Yudha", "1234", 34.0));
